@@ -26,6 +26,8 @@ for pic = 1:1:4
     axis ( [0 T min(-sigma , (mu-2*sigma ) *T) max( sigma , (mu+2*sigma ) *T) ] )
     title ( [ int2str(N), '-step wiener process and its mean' ] )
     xlabel ( [ 'Mu', num2str(mu), ',Sigma', num2str(sigma) ] )
+
+    a=1;
 end
 hold off
 end
