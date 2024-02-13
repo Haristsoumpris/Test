@@ -27,6 +27,11 @@ for pic = 1:1:4
     title ( [ int2str(N), '-step wiener process and its mean' ] )
     xlabel ( [ 'Mu', num2str(mu), ',Sigma', num2str(sigma) ] )
 
+
+
+    
+
+
     a=1;
 end
 hold off
